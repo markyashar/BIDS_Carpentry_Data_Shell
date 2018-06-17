@@ -14,7 +14,7 @@ The Unix Shell -- Summary of Basic Commands: http://swcarpentry.github.io/shell-
 
 Syllabus: 
 
-- The Unix Shell
+--The Unix Shell:
 * Files and directories
 * History and tab completion
 * Pipes and redirection
