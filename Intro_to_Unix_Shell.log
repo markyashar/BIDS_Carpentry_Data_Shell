@@ -1,0 +1,210 @@
+  505  pwd
+  506  ls -atl | more
+  507  ls -h
+  508  ls --help
+  509  man ls
+  510  ls --help
+  511  ls -R
+  512  pwd
+  513  ls
+  514  cd
+  515  cd Downloads
+  516  ls
+  517  ls -atl | more
+  518  cd ~/Desktop
+  519  pwd
+  520  ls -atl | more
+  521  ls -F
+  522  ls -F | more
+  523  pwd
+  524  ls -atl | more
+  525  ls -a
+  526  ls -a | more
+  527  cd ..
+  528  pwd
+  529  cd Desktop/
+  530  pwd
+  531  ls -atl | more
+  532  unzip data-shell.zip
+  533  pwd
+  534  ls -atl | more
+  535  cd data-shell
+  536  ls -alt | more
+  537  pwd
+  538  pwd
+  539  cd ..
+  540  pwd
+  541  cd data-shell/
+  542  ls
+  543  ls -F
+  544  pwd
+  545  ls data
+  546  ls molecules/
+  547  cd data
+  548  ls
+  549  ls animal-counts/
+  550  pwd
+  551  pwd
+  552  ls
+  553  ls -F
+  554  ls ..
+  555  cd ..
+  556  pwd
+  557  ls
+  558  cd north-pacific-gyre/
+  559  ls
+  560  pwd
+  561  cd ..
+  562  ls
+  563  mkdir thesis
+  564  ls
+  565  ls -F
+  566  mkdir my 
+  567  ls -atl
+  568  mkdir super
+  569  ls -atl
+  570  rm dir super
+  571  rmdir super
+  572  rmdir my
+  573  mkdir 'my super thesis'
+  574  ls -atl
+  575  ls my\ super\ thesis/
+  576  mkdir my\ thesis
+  577  ls -atl
+  578  mkdir my_thesis my-thesis
+  579  ls -atl
+  580  ls -f
+  581  ls -F
+  582  pwd
+  583  ls
+  584  ls --help
+  585  man ls
+  586  alais ls='ls --group-directories-first'
+  587  alias ls='ls --group-directories-first'
+  588  clear
+  589  ls
+  590  rmdir my/
+  591  pwd
+  592  ls -atl
+  593  ls -F
+  594  cd thesis
+  595  ls
+  596  pwd
+  597  ;s
+  598  ls
+  599  unalias ls
+  600  ls
+  601  pwd
+  602  cd ../
+  603  rmdir my\ super\ thesis/
+  604  pwd
+  605  ls -atl
+  606  cd thesis
+  607  ls
+  608  pwd
+  609  pico draft.txt
+  610  nano draft.txt
+  611  vim draft.txt
+  612  pwd
+  613  ls -atl
+  614  more draft.txt
+  615  cp draft.txt 2018-06-11_draft.txt
+  616  cp draft.txt 2018-06-12_draft.txt
+  617  ls -atl
+  618  history
+  619  pwd
+  620  ls -atl
+  621  rm 2018-06-11_draft.txt
+  622  ls
+  623  rm 2018-06-12_draft.txt
+  624  mv draft.txt draft2.txt
+  625  ls
+  626  mv draft2.txt ../
+  627  pwd
+  628  ls -atl
+  629  touch draft
+  630  touch monkeys
+  631  mv draft monkeys
+  632  ls -atl
+  633  mv --help
+  634  mv --h
+  635  man mv
+  636  touch donkeys
+  637  ls
+  638  mv -i -v donkeys monkeys
+  639  mv -i -v donkeys monkeys
+  640  pwd
+  641  cd
+  642  cd -
+  643  ls -atl
+  644  pwd
+  645  cd
+  646  ls 
+  647  ls -a
+  648  pico .bashrc
+  649  pico .bash_profile
+  650  ls -atl | more
+  651  pico .profile
+  652  ls -atl .bash
+  653  ls -atl .bash_sessions/
+  654  pwd
+  655  source .profile
+  656  cd -
+  657  ls -atl
+  658  cd ..
+  659  pwd
+  660  ls -atl
+  661  ls
+  662  cd molecules/
+  663  ls
+  664  cat cubane.pdb 
+  665  less cubane.pdb 
+  666  wc --help
+  667  wc *.pdf
+  668  wc *.pdb
+  669  wc *pdb
+  670  wc -l *pdb
+  671  wc p*pdb
+  672  wc *pdb
+  673  wc *pdb > lengths.txt
+  674  ls
+  675  cat lengths.txt 
+  676  sort lengths.txt 
+  677  sort -n lengths.txt 
+  678  sort -n -k 2lengths.txt 
+  679  sort -n -k 2 lengths.txt 
+  680  wc *pdb
+  681  wc *pdb | sort 
+  682  ls > files.txt
+  683  wc *pdb | sort 
+  684  cat ethane.pdb > results.txt
+  685  cat cubane.pdb >> results.txt
+  686  cat results.txt 
+  687  cat ethane.pdb cubane.pdb 
+  688  cat ethane.pdb | sort > result.txt
+  689  head ethane.pdb
+  690  tail ethane.pdb
+  691  tail -n 1 ethane.pdb
+  692  head -n 1 ethane.pdb
+  693  cd ..
+  694  ls -alt
+  695  cd north-pacific-gyre/
+  696  ls
+  697  cd 2012-07-03/
+  698  ls -atl
+  699  wc -l *.txt
+  700  wc *.txt
+  701  wc -l *.txt | sort
+  702  wc -l *.txt | sort -r
+  703  wc -l *.txt | sort | head
+  704  pwd
+  705  cd ../../
+  706  pwd
+  707  ls -atl | more
+  708  history | more
+  709  history | tail -100 | more
+  710  history | tail -200 | more
+  711  history | tail -250 | more
+  712  history | tail -230 | more
+  713  history | tail -210 | more
+  714  history | tail -210 > preserve_some_history1.txt

@@ -1,0 +1,130 @@
+  709  history | tail -100 | more
+  710  history | tail -200 | more
+  711  history | tail -250 | more
+  712  history | tail -230 | more
+  713  history | tail -210 | more
+  714  history | tail -210 > preserve_some_history1.txt
+  715  ls -atl | mmore
+  716  ls -atl
+  717  more preserve_some_history1.txt
+  718  ls 
+  719  cd creatures/
+  720  ls -atl
+  721  pwd
+  722  pw
+  723  pwd
+  724  ls
+  725  cp *.dat original-*.dat
+  726  for filename in basilisk.dat unicorn.dat ; do head -n 3 $filename; done
+  727  less basilisk.dat 
+  728* for filename in basilisk.dat unicorn.dat ; do head -n 3 $filename; done
+  729  pwd
+  730  cd ..
+  731  pwd
+  732  cd molecules
+  733  ls
+  734  for datafile in *.pdb; do ls *.pdb; done
+  735  for datafile in *.pdb; do ls $datafile ; done
+  736  for x in *.pdb;  do ls $x; done
+  737  x=4
+  738  echo $x
+  739  echo $y
+  740  for x in *.pdb; do  echo $x; done
+  741  x=
+  742  echo $x
+  743  echo $PS1
+  744  pwd
+  745  ls
+  746  for filename in c* ; do ls $filename ; done
+  747  for filename in *c* ; do ls $filename ; done
+  748  for filename in *c ; do ls $filename ; done
+  749  cd ../creatures/
+  750  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done
+  751  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less
+  752  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less
+  753  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less | more
+  754  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less
+  755  ls
+  756  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less
+  757  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done 
+  758  for filename in *dat ; do echo $filename; head -n 100 $filename | tail -n 20; done | less
+  759  touch "red dragon.dat"
+  760  ls
+  761  head red dragon.dat
+  762  head "red dragon.dat"
+  763  rm red\ dragon.dat 
+  764  rm red\ dragon.dat 
+  765  ls -atl'
+  766  ls
+  767  for filename in *.dat; do  cp $filename original-$filename; done
+  768  ls
+  769  pwd
+  770  cd ..
+  771  ls -atl
+  772  ls
+  773  cd north-pacific-gyre/
+  774  ls
+  775  cd 2012-07-03/
+  776  ls 
+  777  for datafile in NENE*[AB].txt; do echo $datafile; done
+  778  for datafile in NENE*[AB].txt; do bash goostats $datafile stats-$datafile; done
+  779  for datafile in NENE*[AB].txt; do ./goostats $datafile stats-$datafile; done
+  780  ls
+  781  cat goostats 
+  782  less goostats
+  783  for datafile in NENE*[AB].txt; do echo $filename; ./goostats $datafile stats-$datafile; done
+  784  for datafile in NENE*[AB].txt; do echo $datafile; ./goostats $datafile stats-$datafile; done
+  785  less stats-NENE01978B.txt 
+  786  ls
+  787  history | tail -n 5
+  788  history | tail -n 5
+  789  pwd
+  790  cd ..
+  791  ls -atl
+  792  cd ..
+  793  cd molecules/
+  794  for alkanes in *.pdb; do echo $alkanes; cat $alkanes > alkanes.pdb; done
+  795  head propane.pdb 
+  796  head -n 1 alkanes.pdb 
+  797  for datafile in *.pdb ; do cat $datafile >> all.pdb; done
+  798  wc -l *.pdb
+  799  pwd
+  800  nano middle.sh
+  801  ls
+  802  bash middle.sh
+  803  more middle.sh
+  804  nano middle.sh
+  805  bash middle.sh propane.pdb 
+  806  nano middle.sh
+  807  bash middle.sh pentane.pdb 15 5
+  808  bash middle.sh pentane.pdb 20 5
+  809  nano middle.sh
+  810  bash middle.sh pentane.pdb 20 5
+  811  cat middle.sh
+  812  less middle.sh
+  813  pwd
+  814  cd ..
+  815  cd north-pacific-gyre/
+  816  ls
+  817  cd 2012-07-03/
+  818  ls
+  819  nano do-stats.sh
+  820  bash do-stats.sh NENE*[AB].txt
+  821  nano do-stats.sh
+  822  bash do-stats.sh NENE*[AB].txt
+  823  bash do-stats.sh "NENE*[AB].txt"
+  824  nano do-stats.sh
+  825  bash do-stats.sh "NENE*[AB].txt"
+  826  nano script.sh
+  827  cd ../../
+  828  cd creatures/
+  829  ls
+  830  head basilisk.dat 
+  831  head -n 3 basilisk.dat | tail -n 1 
+  832  grep UPDATED basilisk.dat 
+  833  for filename in *.dat ; do echo $filename; grep UPDATED $filename; done
+  834  history | tail -200 | more
+  835  history | tail -100 | more
+  836  history | tail -150 | more
+  837  history | tail -130 | more
+  838  history | tail -130 > history_output2.txt
