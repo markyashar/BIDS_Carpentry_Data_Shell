@@ -14,7 +14,7 @@
   518  cd ~/Desktop
   519  pwd
   520  ls -atl | more
-  521  ls -F
+  521  ls -F  # shows what directories(/) and files there are in listing.
   522  ls -F | more
   523  pwd
   524  ls -atl | more
@@ -66,12 +66,12 @@
   570  rm dir super
   571  rmdir super
   572  rmdir my
-  573  mkdir 'my super thesis'
+  573  mkdir 'my super thesis'  # makes a single directory "my super thesis"
   574  ls -atl
-  575  ls my\ super\ thesis/
+  575  ls my\ super\ thesis/ # makes a single directory "my super thesis"
   576  mkdir my\ thesis
   577  ls -atl
-  578  mkdir my_thesis my-thesis
+  578  mkdir my_thesis my-thesis2  # makes two directories "my_thesis" and "my_thesis2"
   579  ls -atl
   580  ls -f
   581  ls -F
@@ -202,9 +202,5 @@
   706  pwd
   707  ls -atl | more
   708  history | more
-  709  history | tail -100 | more
-  710  history | tail -200 | more
-  711  history | tail -250 | more
-  712  history | tail -230 | more
-  713  history | tail -210 | more
+  ...
   714  history | tail -210 > preserve_some_history1.txt
